@@ -13,6 +13,26 @@ This script is intended for research purposes only. The author is not responsibl
 - Python 3.x
 - Windows OS
 
+## Installation
+
+1. Clone the repository:
+```bash
+$ git clone https://github.com/secwe/win-prefetch-viewer.git
+$ cd win-prefetch-viewer
+```
+
+2. Change the output folder location in the `main.py` script:
+
+```python
+# Output folder location
+decompressed_prefetch_location = '<decompressed_folder_location>'
+```
+
+3. Run the script:
+```bash
+$ python main.py
+```
+
 ## Usage
 The script will automatically decompress all prefetch files located in `C:\\Windows\\Prefetch` and output them to the specified decompressed folder location.
 
