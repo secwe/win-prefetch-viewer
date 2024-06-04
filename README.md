@@ -28,6 +28,14 @@ $ cd win-prefetch-viewer
 decompressed_prefetch_location = '<decompressed_folder_location>'
 ```
 
+> [!NOTE]
+> If you are changing the prefetch artifacts location, update the `prefetch_folder_location` variable as well.
+
+```python
+# Prefetch folder location
+prefetch_folder_location = 'C:\\Windows\\Prefetch' to '<prefetch_folder_location>'
+```
+
 3. Run the script:
 ```bash
 $ python main.py
