@@ -29,7 +29,7 @@ decompressed_prefetch_location = '<decompressed_folder_location>'
 ```
 
 > [!NOTE]
-> If you are changing the prefetch artifacts location, update the `prefetch_folder_location` variable as well.
+> If you are changing the prefetch artifacts location, update the `compressed_prefetch_location` variable as well.
 
 3. Run the script:
 ```bash
